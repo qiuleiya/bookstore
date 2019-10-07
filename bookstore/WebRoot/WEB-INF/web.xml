@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+  <servlet>
+    <servlet-name>AllBookServlet</servlet-name>
+    <servlet-class>tedu.cn.servlet.AllBookServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DetailServlet</servlet-name>
+    <servlet-class>tedu.cn.servlet.DetailServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>tedu.cn.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>tedu.cn.servlet.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>userLogoutServlet</servlet-name>
+    <servlet-class>tedu.cn.servlet.userLogoutServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CheckUnameServlet</servlet-name>
+    <servlet-class>tedu.cn.servlet.CheckUnameServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CheckEmailServlet</servlet-name>
+    <servlet-class>tedu.cn.servlet.CheckEmailServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CheckPhoneServlet</servlet-name>
+    <servlet-class>tedu.cn.servlet.CheckPhoneServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AllCollectServlet</servlet-name>
+    <servlet-class>tedu.cn.servlet.AllCollectServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CollectYesOrNoServlet</servlet-name>
+    <servlet-class>tedu.cn.servlet.CollectYesOrNoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddToCartServlet</servlet-name>
+    <servlet-class>tedu.cn.servlet.AddToCartServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoginAdminServlet</servlet-name>
+    <servlet-class>tedu.cn.servlet.LoginAdminServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AllCartServlet</servlet-name>
+    <servlet-class>tedu.cn.servlet.AllCartServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddAddressServlet</servlet-name>
+    <servlet-class>tedu.cn.servlet.AddAddressServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SettingServlet</servlet-name>
+    <servlet-class>tedu.cn.servlet.SettingServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CheckUpwdServlet</servlet-name>
+    <servlet-class>tedu.cn.servlet.CheckUpwdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ChangePwdServlet</servlet-name>
+    <servlet-class>tedu.cn.servlet.ChangePwdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CheckAdminUpwdServlet</servlet-name>
+    <servlet-class>tedu.cn.servlet.CheckAdminUpwdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ChangeAdminUpwdServlet</servlet-name>
+    <servlet-class>tedu.cn.servlet.ChangeAdminUpwdServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>AllBookServlet</servlet-name>
+    <url-pattern>/servlet/AllBookServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DetailServlet</servlet-name>
+    <url-pattern>/servlet/DetailServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/servlet/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/servlet/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>userLogoutServlet</servlet-name>
+    <url-pattern>/servlet/userLogoutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckUnameServlet</servlet-name>
+    <url-pattern>/servlet/CheckUnameServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckEmailServlet</servlet-name>
+    <url-pattern>/servlet/CheckEmailServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckPhoneServlet</servlet-name>
+    <url-pattern>/servlet/CheckPhoneServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AllCollectServlet</servlet-name>
+    <url-pattern>/servlet/AllCollectServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CollectYesOrNoServlet</servlet-name>
+    <url-pattern>/servlet/CollectYesOrNoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddToCartServlet</servlet-name>
+    <url-pattern>/servlet/AddToCartServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginAdminServlet</servlet-name>
+    <url-pattern>/servlet/LoginAdminServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AllCartServlet</servlet-name>
+    <url-pattern>/servlet/AllCartServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddAddressServlet</servlet-name>
+    <url-pattern>/servlet/AddAddressServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SettingServlet</servlet-name>
+    <url-pattern>/servlet/SettingServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckUpwdServlet</servlet-name>
+    <url-pattern>/servlet/CheckUpwdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangePwdServlet</servlet-name>
+    <url-pattern>/servlet/ChangePwdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckAdminUpwdServlet</servlet-name>
+    <url-pattern>/servlet/CheckAdminUpwdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangeAdminUpwdServlet</servlet-name>
+    <url-pattern>/servlet/ChangeAdminUpwdServlet</url-pattern>
+  </servlet-mapping>
+	
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+</web-app>
