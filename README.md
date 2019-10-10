@@ -8,7 +8,7 @@ javaweb bookstore
  
  文件中包含了建数据库的sql文件，图片素材前端页面（html），和部分实现功能的后端代码及jsp文件等
 ![](image/userlogin.jpg)
-![](image/首页.jpg)
+![](image/书店首页.jpg)
 ![](image/buycar.jpg)
 ![](image/detail.jpg)
 
