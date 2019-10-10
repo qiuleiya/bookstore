@@ -7,3 +7,6 @@ javaweb bookstore
  实现了用户登录注册，收藏，加购物车，查看书籍细节等的功能。
  
  文件中包含了建数据库的sql文件，图片素材前端页面（html），和部分实现功能的后端代码及jsp文件等
+![](image/buycar.jpg)
+![](image/detail.jpg)
+![](image/userlogin.jpg)
